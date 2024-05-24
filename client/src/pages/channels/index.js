@@ -53,7 +53,7 @@ function AllChannelsPage() {
         <>
             <PageBanner
                 heading='Channels'
-                text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, similique pariatur et corporis cum vero minus exercitationem veritatis.'
+                text='Create new channels, see existing ones, and track their performance.'
             >
                 {account ? (
                     <Link className='btn btn-primary' to='/create-channel'>

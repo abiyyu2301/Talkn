@@ -131,3 +131,9 @@ export async function sendFormData(
     stopLoading();
   }
 }
+
+export function changeIpfsUrl(url) {
+  const ipfsGateway = "https://ipfs.io/ipfs/";
+  const cid = url.split('/').pop();
+  return `${ipfsGateway}${cid}`;
+}

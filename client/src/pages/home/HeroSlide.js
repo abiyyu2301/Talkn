@@ -3,6 +3,7 @@ import { truncateStart } from '../../helpers/utils';
 import { BsFillCalendar2MinusFill } from 'react-icons/bs';
 import { CgTimer } from 'react-icons/cg';
 import { formatSimpleDate } from '../../helpers/utils';
+import { changeIpfsUrl } from '../../helpers/utils';
 
 // COMPOENENTS
 import ChannelInfo from '../../components/general/ChannelInfo';
@@ -53,7 +54,7 @@ function HeroSlide({ title, category, description, channelId, createdAt, videoId
                         <div className='col-lg-5 ms-auto order-1 order-lg-2'>
                             <div className='px-lg-5' data-aos='fade-left'>
                                 <img
-                                    src={poster}
+                                    src={changeIpfsUrl(poster)}
                                     alt={title}
                                     className='img-fluid hero-slide-img d-block ms-auto shadow-lg w-100'
                                 />

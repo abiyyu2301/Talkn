@@ -61,7 +61,7 @@ function DiscoverPage() {
         <>
             <PageBanner
                 heading='Discover All Videos'
-                text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, similique pariatur et corporis cum vero minus exercitationem veritatis.'
+                text='Explore the most popular videos on Ethermotion, handpicked based on views, likes, and shares.'
             >
                 <li className='list-inline-item m-1'>
                     <Link className='btn btn-light text-dark' to='/upload/general'>

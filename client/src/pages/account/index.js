@@ -20,7 +20,7 @@ function UserPage() {
         <>
             <PageBanner
                 heading='My Account'
-                text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, similique pariatur et corporis cum vero minus exercitationem veritatis.'
+                text='Welcome to your account dashboard. Manage your uploads, earnings, and personal information effortlessly.'
             >
                 {account ? (
                     <ul className='list-inline mb-0'>

@@ -9,7 +9,7 @@ function FAQsPage() {
         <>
             <PageBanner
                 heading='Frequently Asked Questions'
-                text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, similique pariatur et corporis cum vero minus exercitationem veritatis.'
+                text='Find answers to the most common questions about Ethermotion'
             ></PageBanner>
 
             <section className='py-5'>

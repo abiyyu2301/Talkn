@@ -36,7 +36,7 @@ function FeaturesRequestsPage() {
         <>
             <PageBanner
                 heading='Ask for a Feature'
-                text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, similique pariatur et corporis cum vero minus exercitationem veritatis.'
+                // text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, similique pariatur et corporis cum vero minus exercitationem veritatis.'
             ></PageBanner>
 
             <section className='py-5'>

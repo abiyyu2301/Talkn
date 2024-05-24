@@ -9,6 +9,7 @@ import { Link } from 'react-router-dom';
 import { truncateStart } from '../../helpers/utils';
 
 // HOOKS
+import { changeIpfsUrl } from '../../helpers/utils';
 import useWeb3 from '../../hooks/useWeb3';
 import useVideos from '../../hooks/useVideos';
 
@@ -30,8 +31,8 @@ function ChannelCard({ id, title, bio, avatar, cover, owner, slug, videos, subsc
         <>
             <div className='card channel-card mb-0'>
                 <div className='card-body p-3'>
-                    <div className='channel-card-cover' style={{ backgroundImage: `url(${cover})` }}>
-                        <div className='channel-card-avatar' style={{ backgroundImage: `url(${avatar})` }}></div>
+                    <div className='channel-card-cover' style={{ backgroundImage: `url(${changeIpfsUrl(cover)})` }}>
+                        <div className='channel-card-avatar' style={{ backgroundImage: `url(${changeIpfsUrl(avatar)})` }}></div>
                         <div className='channel-card-category'>{category}</div>
                     </div>
 

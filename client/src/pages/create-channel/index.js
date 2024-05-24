@@ -149,7 +149,7 @@ function CreateChannelPage() {
             )}
             <PageBanner
                 heading='Create a New Channel'
-                text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, similique pariatur et corporis cum vero minus exercitationem veritatis.'
+                text='Choose a unique and memorable name for your channel that reflects your content and brand.'
             ></PageBanner>
 
             <section className='py-5'>

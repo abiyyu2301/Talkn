@@ -9,7 +9,7 @@ function ActivitesPage() {
         <>
             <PageBanner
                 heading='Activities'
-                text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, similique pariatur et corporis cum vero minus exercitationem veritatis.'
+                text='Stay updated with a summary of your latest activities, including uploads, comments, and interactions with subscribers.'
             ></PageBanner>
 
             <section className='py-5'>

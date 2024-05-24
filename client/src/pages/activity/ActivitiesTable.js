@@ -149,9 +149,6 @@ function UserApprovedVideosTable() {
                     </div>
                     <div className='ms-3'>
                         <h2 className='mb-0 h4'>Latest Activities</h2>
-                        <p className='text-muted fw-normal mb-0'>
-                            Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-                        </p>
                     </div>
                 </div>
 

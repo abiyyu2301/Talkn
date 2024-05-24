@@ -4,6 +4,7 @@ import ReactPlayer from 'react-player';
 // HOOKS
 import useVideos from '../../hooks/useVideos';
 import useWeb3 from '../../hooks/useWeb3';
+import { changeIpfsUrl } from '../../helpers/utils';
 
 // COMPONENTS
 import ConnectWalletHander from './ConnectWalletHandler';
@@ -32,7 +33,7 @@ function PreviewModal() {
                                 <div className='card-body p-4 p-lg-5'>
                                     <h2 className='h1 mb-2'>Video Trailer</h2>
                                     <p className='text-muted mb-5'>Short preview from the original video</p>
-                                    <ReactPlayer url={preview?.preview} controls={true} width='100%' height='auto' />
+                                    <ReactPlayer url={changeIpfsUrl(preview?.preview)} controls={true} width='100%' height='auto' />
 
                                     {account ? (
                                         <div className='text-start'>

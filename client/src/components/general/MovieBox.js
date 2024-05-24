@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 import { BsPlayCircle, BsHourglassSplit } from 'react-icons/bs';
 import { CgTimer } from 'react-icons/cg';
 import { RiMoneyDollarCircleFill } from 'react-icons/ri';
+import { changeIpfsUrl } from '../../helpers/utils';
 
 // HOOKS
 import useVideos from '../../hooks/useVideos';
@@ -20,7 +21,7 @@ function MovieBox({ videoId, preview, channelId, title, category, duration, post
                     <Link to={`/videos/${videoId}`}>
                         <BsPlayCircle className='play-icon text-white z-index-20' size='2.5rem' />
                     </Link>
-                    <div className='movie-box-poster' style={{ backgroundImage: `url(${poster})` }}></div>
+                    <div className='movie-box-poster' style={{ backgroundImage: `url(${changeIpfsUrl(poster)})` }}></div>
                     {isPremium && (
                         <div className='position-absolute top-0 end-0 p-3'>
                             <span className='badge-premium'>

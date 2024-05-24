@@ -21,10 +21,6 @@ function LatestPremiumVideos() {
                     </h2>
                     <div className='row mb-4'>
                         <div className='col-lg-6'>
-                            <p className='text-muted'>
-                                Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cupiditate aliquam libero nam
-                                similique, et, laborum vitae qui porro at minus non.
-                            </p>
                         </div>
                     </div>
 

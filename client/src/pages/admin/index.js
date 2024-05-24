@@ -89,7 +89,7 @@ function AdminPage() {
         <>
             <PageBanner
                 heading='Admin Panel'
-                text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, similique pariatur et corporis cum vero minus exercitationem veritatis.'
+                // text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, similique pariatur et corporis cum vero minus exercitationem veritatis.'
             ></PageBanner>
             <section className='py-5'>
                 <div className='container py-5'>

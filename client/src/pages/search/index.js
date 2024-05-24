@@ -69,7 +69,7 @@ function SearchPage() {
         <>
             <PageBanner
                 heading="What you're looking for? "
-                text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, similique pariatur et corporis cum vero minus exercitationem veritatis.'
+                // text='Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae, similique pariatur et corporis cum vero minus exercitationem veritatis.'
             >
                 <form onSubmit={handleSearchSubmit}>
                     <div className='form-floating position-relative'>
