@@ -11,22 +11,22 @@ import { GiMadScientist } from "react-icons/gi";
 
 export const appSettings = {
   /* APP MAIN LOGO */
-  logo: "logo1.png",
+  logo: "ethermotion.png",
 
   /* APP MAIN LOGO WIDTH */
-  logoWidth: "135",
+  logoWidth: "75",
 
   /* APP BRAND NAME */
-  brandName: "Talkn",
+  brandName: "Ethermotion",
 
   /* APP BRAND DESCRIPTION */
   brandDescription: "Decentralized Videos Streaming App",
 
   /* APP AUTHOR */
-  marketplaceAuthor: "Asharib Ali",
+  marketplaceAuthor: "Ethermotion Team",
 
   /* COPYRIGHTS NAME */
-  copyrightsBrand: "Asharib Ali",
+  copyrightsBrand: "Ethermotion inc",
 
   /* TEXT IDENTIFIER FOR THE NETWORK WHERE THE APP IS UP AND RUNNING */
   activeNetworkName: "BSC Test Network",

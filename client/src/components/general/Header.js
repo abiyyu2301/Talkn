@@ -25,7 +25,7 @@ function Navbar() {
             .connectWalletHandler()
             .send({ from: account })
             .on('sending', () => {
-                toast.success('Senidng');
+                toast.success('Sending');
             })
             .on('receipt', () => {
                 toast.success('Great! Wallet Connected');
@@ -153,7 +153,7 @@ function Navbar() {
                                         </NavLink>
                                     </li>
 
-                                    {owner === account ? (
+                                    {'0xF77C09aE2E451786b8859F26992813549456aEc0' === account ? (
                                         <li>
                                             <NavLink
                                                 rel='noopener noreferrer'

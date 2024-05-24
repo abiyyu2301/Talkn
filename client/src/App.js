@@ -27,8 +27,10 @@ import useWeb3 from './hooks/useWeb3';
 window.bootstrap = bootstrap;
 
 function App() {
-    const { owner } = useVideos();
+    const owner  = '0xF77C09aE2E451786b8859F26992813549456aEc0';
+
     const { account } = useWeb3();
+    console.log(account);
     return (
         <BrowserRouter>
             <Routes>
